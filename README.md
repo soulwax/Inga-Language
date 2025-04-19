@@ -1,8 +1,81 @@
+<div align="center">
+<p>
+
 # Inga 🎨
 
 ## A Modern Indentation-Based Templating Language
 
-[![npm version](https://img.shields.io/npm/v/inga-cli.svg)](https://www.npmjs.com/package/inga-cli) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/inga-cli.svg)](https://www.npmjs.com/package/inga-cli)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/soulwax/Inga-Language.svg)](https://github.com/soulwax/Inga-Language/issues)
+[![GitHub forks](https://img.shields.io/github/forks/soulwax/Inga-Language.svg)](https://github.com/soulwax/Inga-Language/network)
+[![GitHub stars](https://img.shields.io/github/stars/soulwax/Inga-Language.svg)](https://github.com/soulwax/Inga-Language/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+</p>
+<p>It is going to take a while till this project is published on npmjs, but you can already install the CLI via `npm install -g inga-cli`.
+</p>
+</div>
+
+<div align="center">
+
+### Core Technologies involved
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+---
+
+### Repository Status
+
+![GitHub stars](https://img.shields.io/github/stars/soulwax/Inga-Language?style=for-the-badge&logo=github)
+![GitHub issues](https://img.shields.io/github/issues/soulwax/Inga-Language?style=for-the-badge&logo=github)
+![GitHub forks](https://img.shields.io/github/forks/soulwax/Inga-Language?style=for-the-badge&logo=github)
+![GitHub license](https://img.shields.io/github/license/soulwax/Inga-Language?style=for-the-badge&logo=github)
+
+---
+
+### Workflow & CI/CD
+
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/soulwax/Inga-Language/node.js.yml?style=for-the-badge&logo=github-actions)
+![Codecov](https://img.shields.io/codecov/c/github/soulwax/Inga-Language?style=for-the-badge&logo=codecov)
+
+---
+
+### Packaging & Distribution
+
+![NPM Version](https://img.shields.io/npm/v/inga-cli?style=for-the-badge&logo=npm)
+![NPM Downloads](https://img.shields.io/npm/dm/inga-cli?style=for-the-badge&logo=npm)
+
+---
+
+### Development & Community
+
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)
+![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge)
+![Made with Love](https://img.shields.io/badge/Made%20with-Love-red?style=for-the-badge)
+
+---
+
+### Related Technologies
+
+![Pug](https://img.shields.io/badge/Pug-FFF?style=for-the-badge&logo=pug&logoColor=A86454)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+
+---
+
+### Status & Features
+
+![Status](https://img.shields.io/badge/Status-Alpha-orange?style=for-the-badge)
+![Template Engine](https://img.shields.io/badge/Template%20Engine-Yes-success?style=for-the-badge)
+![Component System](https://img.shields.io/badge/Component%20System-Yes-success?style=for-the-badge)
+![CSS Integration](https://img.shields.io/badge/CSS%20Integration-Yes-success?style=for-the-badge)
+![State Management](https://img.shields.io/badge/State%20Management-Yes-success?style=for-the-badge)
+
+</div>
 
 ---
 
@@ -17,7 +90,7 @@ Inga reimagines how HTML, CSS, and JavaScript come together in templates by comb
 - **Reactive State** &mdash; Native state management and reactivity.
 - **Component System** &mdash; Props, slots, lifecycle hooks, and mixins.
 - **Node.js Bridge** &mdash; Seamless access to the Node ecosystem.
-- **Developer Experience** &mdash; Hot‑reload, clear errors, and VS Code support.
+- **Developer Experience** &mdash; Hot‑reload, clear errors, and VS Code support.
 
 ---
 
@@ -130,7 +203,7 @@ Run `inga dev` and watch your app hot‑reload as you tweak your template.
 ## 🗺️ Roadmap
 
 1. Enhance performance and bundle size.
-2. VS Code extension: syntax highlighting, snippets, and preview.
+2. VS Code extension: syntax highlighting, snippets, and preview.
 3. Plugin ecosystem & template marketplace.
 4. TypeScript definitions and stricter typing.
 5. Community templates, docs, and examples.
