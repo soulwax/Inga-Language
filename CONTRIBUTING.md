@@ -155,4 +155,4 @@ npm test
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the project’s [GPLv3 License](./LICENSE). That means your changes are available under the same terms as Inga itself.
+By contributing, you agree that your contributions will be licensed under the project’s [GPLv3 License](LICENSE). That means your changes are available under the same terms as Inga itself.

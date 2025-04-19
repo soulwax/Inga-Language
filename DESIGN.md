@@ -17,7 +17,7 @@ Inga is a modern templating language for web development that reimagines how HTM
 
 ### Document Structure
 
-```
+```jade
 document MyPage
   head
     title: My Inga Page
@@ -39,7 +39,7 @@ document MyPage
 
 Elements are defined by their name followed by optional attributes:
 
-```
+```jade
 div #container .wrapper
   // This creates <div id="container" class="wrapper"></div>
 ```
@@ -48,14 +48,14 @@ div #container .wrapper
 
 Text content follows elements after a colon:
 
-```
+```jade
 p: This is a paragraph
 h1: This is a heading
 ```
 
 Multiline content uses the pipe syntax:
 
-```
+```jade
 p
   | This is a paragraph with
   | multiple lines of text
@@ -70,7 +70,7 @@ Attributes can be specified in three ways:
 2. Class selector: `.className`
 3. Parenthesized list: `(href="link" target="_blank")`
 
-```
+```jade
 a #cta-button .primary(href="/signup" target="_blank"): Sign Up
 ```
 
@@ -78,7 +78,7 @@ a #cta-button .primary(href="/signup" target="_blank"): Sign Up
 
 Styles are defined in nested `style` blocks:
 
-```
+```jade
 div #sidebar
   style
     width: 250px
@@ -92,7 +92,7 @@ div #sidebar
 
 Components are reusable templates with props:
 
-```
+```jade
 component Button(text, type="primary", disabled=false)
   button .btn .btn-{type}(disabled={disabled})
     span: {text}
@@ -112,7 +112,7 @@ component Button(text, type="primary", disabled=false)
 
 Built-in reactive state:
 
-```
+```jade
 state
   count: 0
   user: { name: "", loggedIn: false }
@@ -129,7 +129,7 @@ div
 
 ### Lifecycle Hooks
 
-```
+```jade
 lifecycle
   onMount
     // Code that runs after component mounts
@@ -147,7 +147,7 @@ lifecycle
 
 ### Control Flow
 
-```
+```jade
 if condition
   p: This will show if condition is true
 else if otherCondition
@@ -164,7 +164,7 @@ while condition
 
 ### Node.js Integration
 
-```
+```jade
 import
   fs from "fs"
   path from "path"
@@ -183,7 +183,7 @@ script
 
 ### Mixins
 
-```
+```jade
 mixin Avatar(user, size="medium")
   div .avatar .avatar-{size}
     if user.profileImage
@@ -197,7 +197,7 @@ mixin Avatar(user, size="medium")
 
 ### Template Inheritance
 
-```
+```jade
 // layout.inga
 document BaseLayout
   head
@@ -227,7 +227,7 @@ block content
 
 ### Responsive Design
 
-```
+```jade
 div #hero
   h1: Responsive Title
     style
@@ -243,7 +243,7 @@ div #hero
 
 Or using responsive mixins:
 
-```
+```jade
 component ResponsiveContainer
   div
     style
